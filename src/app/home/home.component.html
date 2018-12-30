@@ -1,0 +1,119 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class=" home-page m-0 row flex-column d-flex justify-content-start align-items-center align-content-center">
+  <nav class="uk-navbar-container bg-transparent" uk-navbar>
+    <div class="uk-navbar-center">
+
+      <div class="uk-navbar-center-left">
+        <div>
+          <ul class="uk-navbar-nav">
+            <!-- <li class="uk-active"><a href="#">Active</a></li> -->
+            <li>
+              <a class="text-white" style="font-weight: 500" href="#">The Initiative</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#" routerLink="/NationalTaskForce" routerLinkActive="active">National
+                      Task
+                      Force</a></li>
+                  <li><a href="#" routerLink="/Advocates" routerLinkActive="active">Advocates</a></li>
+                  <li><a href="#">Economic Blueprint</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a class="uk-navbar-item uk-logo font-weight-bold text-light" href="#">TME-SYSTEMS</a>
+      <div class="uk-navbar-center-right">
+        <div>
+          <ul class="uk-navbar-nav">
+            <li>
+              <a class="text-white" style="font-weight: 500" href="#">Media</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Blog</a></li>
+                  <li><a href="#">Advocates</a></li>
+                  <li><a href="#">Economic Blueprint</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+  <!-- <router-outlet></router-outlet> -->
+  <h1 style="font-weight: 500" class="text-center text-white display-2 p-0 mb-2 mt-5 pt-5"> Finding The Courage </h1>
+  <p class="text-white w-50 text-center pt-3 m-0" style="font-size: 170%;">Finding solutions to social
+    issues,
+    tacking economic
+    distress, fighting
+    poverty. </p>
+  <div class="mt-5 d-flex w-100 justify-content-center">
+    <button class=" btn-lg btn-primary">Learn More</button>
+    <button class=" ml-5 btn-lg btn-light">Join Now</button>
+  </div>
+</div>
+<div class="row" style="min-height: 110vh;">
+  <div class="col-1">
+    <p>1</p>
+  </div>
+  <div class="col d-flex flex-column justify-content-center align-items-center">
+    <!-- <div class="uk-tile w-50 h-75 d-flex flex-column justify-content-center align-items-center m-0 p-0" style="">
+      <img src="https://media.licdn.com/dms/image/C5103AQH3HPRgyrHBcQ/profile-displayphoto-shrink_800_800/0?e=1551312000&v=beta&t=aUWFnGLx7jE1tgqEyf2QYqgbEaorcs0er6UhvxSUXUY"
+        class="rounded-circle  mb-3" alt="">
+      <div class="w-100 h-25 d-flex flex-column justify-content-center align-items-center " style="">
+        <h1 class="text-white text-center text-dark">Debra Pope</h1>
+        <p class="text-center text-secondary">Founder & President</p>
+      </div>
+    </div> -->
+
+    <div class="w-75 h-50 d-flex align-items-start justify-content-around">
+      <div style="min-width: 50%;">
+        <img src="https://media.licdn.com/dms/image/C5103AQH3HPRgyrHBcQ/profile-displayphoto-shrink_800_800/0?e=1551312000&v=beta&t=aUWFnGLx7jE1tgqEyf2QYqgbEaorcs0er6UhvxSUXUY"
+          class="rounded w-75 h-75 mb-3" alt="">
+      </div>
+      <div class="d-flex flex-column justify content-center pl-5 ml-5 text-center" style="min-width: 50%;">
+        <h1 class="p-0 m-0">Debra Pope</h1>
+        <p class="p-2 m-0 text-secondary">Founder & President</p>
+        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-1">
+    <p>1</p>
+  </div>
+</div>
+<app-home-national></app-home-national>
+<app-home-advocates></app-home-advocates>
+<!-- <div style="min-height: 50vh;" class="row paralax-row">
+     TODO: Darken background image and make it paralax, three rows with data or relavent statistics
+  <div class="col-lg">
+    <div class=" h-100 mt-2 d-flex flex-column justify-content-center align-content-center align-items-center">
+      <i style="color: white;" class="pt-0 mt-0 fa-3x fas fa-home"></i>
+      <h2 class="text-white p-3 m-0">Communities Affected</h2>
+      <h3 class="text-white p-0 m-0">100,000</h3>
+    </div>
+  </div>
+  <div class="col-lg">
+    <div class=" h-100 mt-2 d-flex flex-column justify-content-center align-content-center align-items-center">
+      <i style="color: white;" class="pt-0 mt-0 fa-3x fas fa-users"></i>
+      <h2 class="text-white p-3 m-0">Families Fractured</h2>
+      <h3 class="text-white p-0 m-0">2,000,000</h3>
+    </div>
+  </div>
+  <div class="col-lg">
+    <div class="h-100 mt-2 d-flex flex-column justify-content-center align-content-center align-items-center">
+      <i style="color: white;" class="pt-0 mt-0 fa-3x fas fa-hand-holding-usd"></i>
+      <h2 class="text-white p-3 m-0">Dollars Made</h2>
+      <h3 class="text-white p-0 m-0">10,000,000</h3>
+    </div>
+  </div>
+  </div> -->
+<app-about></app-about>
+<app-footer></app-footer>

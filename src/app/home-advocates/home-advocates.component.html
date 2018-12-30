@@ -1,0 +1,25 @@
+<div class="row bg-white shadow-lg" style="height: auto;">
+  <div class="col-lg d-flex align-items-center justify-content-center">
+    <img src="https://images.pexels.com/photos/772803/pexels-photo-772803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      class="rounded w-100" alt="">
+  </div>
+  <div class="col-lg d-flex align-items-center justify-content-center">
+    <div class="d-flex w-75 h-75 flex-column align-items-center justify-content-center">
+      <h2 class="p-0 m-0 text-center">Economic Advocates</h2>
+      <div class="w-50 mt-1 mb-0" style="min-height: 2px; background-color: lightblue;"></div>
+      <ul class="list-unstyled d-flex flex-column justify-content-around h-100">
+        <li *ngFor="let item of advocatesList;" class="d-flex justify-content-around align-items-center p-3 mt-4" style="">
+          <div class="d-flex align-items-start justify-content-start">
+            <div class="bg-dark p-3 rounded-circle">
+              <i class="{{item.icon}}" style="color: white;"></i>
+            </div>
+          </div>
+          <div class="d-flex flex-column align-items-start justify-content-start pl-4">
+            <h3 class="p-0 m-0 text-left">{{item.header}}</h3>
+            <p class="p-0 m-0">{{item.body}}</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
